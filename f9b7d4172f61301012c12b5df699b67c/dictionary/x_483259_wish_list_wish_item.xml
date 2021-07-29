@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label=" Wish Item" max_length="40" name="x_483259_wish_list_wish_item" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#CD5C5C;33:#FF8C00;66:#FFFF00;90:#00FF00,target_field=target" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="display_name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Item" max_length="125" name="item" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element attributes="encode_utf8=false" label=" Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <index name="index">
             <element name="requester"/>

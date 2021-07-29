@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="complete" label="% Complete" language="en" table="x_483259_wish_list_wish_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>complete</element>
+            <help/>
+            <hint/>
+            <label>% Complete</label>
+            <language>en</language>
+            <name>x_483259_wish_list_wish_item</name>
+            <plural>% Completes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-29 20:51:17</sys_created_on>
+            <sys_id>7b5ac1172f29301012c12b5df699b6f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>% Complete</sys_name>
+            <sys_package display_value="Wish List" source="x_483259_wish_list">f9b7d4172f61301012c12b5df699b67c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wish List">f9b7d4172f61301012c12b5df699b67c</sys_scope>
+            <sys_update_name>sys_documentation_x_483259_wish_list_wish_item_complete_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-29 20:51:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
